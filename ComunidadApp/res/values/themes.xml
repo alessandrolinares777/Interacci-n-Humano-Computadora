@@ -1,0 +1,11 @@
+<resources>
+    <color name="verde">#5BB98C</color>
+    <color name="verde_oscuro">#2E8B63</color>
+    <color name="verde_claro">#E6F5EE</color>
+    <style name="Theme.Comunidad" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryDark">@color/verde_oscuro</item>
+        <item name="colorAccent">@color/verde_oscuro</item>
+        <item name="colorSecondary">@color/verde_oscuro</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_inicio" android:icon="@android:drawable/ic_menu_myplaces" android:title="Inicio" />
+    <item android:id="@+id/nav_eventos" android:icon="@android:drawable/ic_menu_my_calendar" android:title="Eventos" />
+    <item android:id="@+id/nav_ayudas" android:icon="@android:drawable/ic_menu_help" android:title="Ayudas" />
+    <item android:id="@+id/nav_comparte" android:icon="@android:drawable/ic_menu_share" android:title="Comparte" />
+    <item android:id="@+id/nav_perfil" android:icon="@android:drawable/ic_menu_preferences" android:title="Perfil" />
+</menu>

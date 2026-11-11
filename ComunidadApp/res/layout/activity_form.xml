@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+    <EditText android:id="@+id/etTitulo" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Título" />
+    <EditText android:id="@+id/etDesc" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Descripción" android:inputType="textMultiLine" android:minLines="3" />
+    <FrameLayout android:id="@+id/tilFecha" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etFecha" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Fecha y hora (ej. Sáb 18 Oct, 8:00)" />
+    </FrameLayout>
+    <FrameLayout android:id="@+id/tilLugar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/etLugar" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Lugar / ubicación" />
+    </FrameLayout>
+    <Spinner android:id="@+id/spEstado" android:layout_width="match_parent" android:layout_height="48dp" />
+    <Button android:id="@+id/btnPublicar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" android:text="Publicar" />
+</LinearLayout>
+</ScrollView>
